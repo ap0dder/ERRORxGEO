@@ -18,11 +18,3 @@ navLinks.forEach(function (navLink) {
         navList.classList.remove('active');
     })
 })
-
-// PRICING TABS SWITCH
-const priceToggle = document.getElementById('toggle');
-const priceGrid = document.querySelector('.price-grid');
-
-priceToggle.addEventListener('change', e => {
-    priceGrid.classList.toggle('show-yearly');
-});
